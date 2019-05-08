@@ -1,0 +1,19 @@
+<beans xmlns = "http://www.springframework.org/schema/beans"
+
+ xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+
+ 
+xsi:schemaLocation = "http://www.springframework.org/schema/beans
+
+ 
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id = "nonveg"   class = "com.capgemini.spring.food.nonveg ">
+
+		<property name  = "setFood" ref = "veg">
+	</bean>
+
+	<bean id = "veg"   class = "com.capgemini.spring.food.veg">
+
+	</bean>
+</beans>

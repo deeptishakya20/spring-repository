@@ -1,0 +1,39 @@
+package com.capgemini.spring.mvc.model.dao;
+
+import java.util.List;
+
+import com.capgemini.spring.mvc.model.entity.Person;
+
+public class PersonDaoImpl implements PersonDao{
+
+	@Override
+	public boolean addNew(Person person) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Person> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean update(Person person) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean delete(Person person) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Person getPerson(int personId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.capgemini.spring.mvc.model.service;
+
+public interface PersonService {
+
+}

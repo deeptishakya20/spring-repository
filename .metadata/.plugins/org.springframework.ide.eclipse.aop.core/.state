@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="hellomvc"/>
+<aop-project name="demo"/>
+<aop-project name="person_spring_mv"/>
+<aop-project name="hello-_mvc"/>
+<aop-project name="personmvc"/>
+</aop-reference-model>
